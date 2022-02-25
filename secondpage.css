@@ -1,0 +1,94 @@
+.secondscreen{
+  width : 35vw;
+  height: 80vh;
+  background-color : white;  
+  border-radius: 40px;
+
+}
+
+.secondtop{
+  height:55vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+
+.secondimg{
+
+  width:auto;
+  height: 100%;
+  display: flex;
+  margin-top:13vh;
+  border-radius: 30px;
+  overflow:hidden;
+  box-shadow: 0px 6px 15px tomato;
+}
+
+.secondtoptitle{
+  width: 100%;
+  height: 20vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.secondsongname{
+
+  font-size: 30px;
+  font-weight: 700;
+}
+.secondsingername{
+  font-weight: 600;
+  color:gray;
+}
+.timeline{
+  width:100%;
+  height:5vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.time{
+  width:100%;
+  height:40%;
+  display:flex;
+  justify-content:space-between;
+  padding: 20px 2vw;
+  font-size: 13px;
+  color:gray;
+  font-weight: 700;
+}
+
+input{
+  width: 90%;
+  height: 0.7vh;
+  border-radius:50px;
+  accent-color: black;
+  
+}
+
+
+
+.playermenu{
+  width:100%;
+  height:20vh;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0px 3vw;
+}
+
+.playerforward{
+  transform: rotateY(180deg);
+}
+
+.repeat{
+  opacity: 0.6;
+}
+.random{
+  opacity: 0.6;
+}
